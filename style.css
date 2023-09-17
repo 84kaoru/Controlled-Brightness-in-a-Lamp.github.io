@@ -1,6 +1,6 @@
 :root {
     --border-color: #482896;
-    --shadow-color: #744bd4;
+    --shadow-color: #734bd4;
     --main-bg-color: #8357eb;
     --secondary-bg-color: #986ef1;
     --lamp-light-color: #c791e5;
@@ -13,7 +13,7 @@
     --lamp-top-height: 20px;
 }
 
-body{
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ body{
     height: 100vh;
 }
 
-form{
+form {
     margin: 0;
     width: 200px;
     padding: 2em 2.2em;
@@ -106,8 +106,8 @@ form{
     border-bottom: 2px solid var(--lamp-light-color);
 }
 
-.lamp-part.bottom:before{
-    content:"";
+.lamp-part.-bottom:before{
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -281,90 +281,91 @@ input[type=range]::-ms-thumb{
     margin-top: -6px;
 }
 
-body[data-light^='1']{
-    .blub, .wall-light-shadow{
-        opacity:0.1;
+body[data-light^='1'] {
+    .bulb, .wall-light-shadow {
+        opacity: 0.1;
     }
-    .lamp-part.-bottom:before{
+    .lamp-part.-bottom:before {
         opacity: 0.9;
     }
 }
-body[data-light^='2']{
-    .blub,  .wall-light-shadow{
+body[data-light^='2'] {
+    .bulb,  .wall-light-shadow {
         opacity: 0.2;
     }
-    .lamp-part.-bottom:before{
+    .lamp-part.-bottom:before {
         opacity: 0.8;
     }
 }
 
-body[data-light^='3']{
-    .blub,  .wall-light-shadow{
+body[data-light^='3'] {
+    .bulb,  .wall-light-shadow {
         opacity: 0.3;
     }    
-    .lamp-part.-bottom:before{
+    .lamp-part.-bottom:before {
         opacity: 0.7;
     }
 }
 
-body[data-light^='4']{
-    .blub,  .wall-light-shadow{
+body[data-light^='4'] {
+    .bulb,  .wall-light-shadow {
         opacity: 0.4;
     }
-    .lamp-part.-bottom:before{
+    .lamp-part.-bottom:before {
         opacity: 0.6;
     }
 }
 
-body[data-light^='5']{
-    .blub,  .wall-light-shadow{
+body[data-light^='5'] {
+    .bulb,  .wall-light-shadow {
         opacity: 0.5;
     }
-    .lamp-part.-bottom:before{
+    .lamp-part.-bottom:before {
         opacity: 0.5;
     }
 }
 
-body[data-light^='6']{
-    .blub,  .wall-light-shadow{
-        opacity:0.6;
+body[data-light^='6'] {
+    .bulb,  .wall-light-shadow {
+        opacity: 0.6;
     }
-    .lamp-part.-bottom:before{
+    .lamp-part.-bottom:before {
         opacity: 0.4;
     }
 }
-body[data-light^='7']{
-    .blub,  .wall-light-shadow{
+body[data-light^='7'] {
+    .bulb,  .wall-light-shadow {
         opacity: 0.7;
     }
-    .lamp-part.-bottom:before{
+    .lamp-part.-bottom:before {
         opacity: 0.3;
     }
 }
 
-body[data-light^='8']{
-    .blub,  .wall-light-shadow{
+body[data-light^='8'] {
+    .bulb,  .wall-light-shadow {
         opacity: 0.8;
     }    
-    .lamp-part.-bottom:before{
+    .lamp-part.-bottom:before {
         opacity: 0.2;
     }
 }
 
-body[data-light^='9']{
-    .blub,  .wall-light-shadow{
+body[data-light^='9'] {
+    .bulb,  .wall-light-shadow {
         opacity: 0.9;
     }
-    .lamp-part.-bottom:before{
+    .lamp-part.-bottom:before {
         opacity: 0.1;
     }
 }
 
-body[data-light^='10']{
-    .blub,  .wall-light-shadow{
+body[data-light^='10'] {
+    .bulb,  .wall-light-shadow {
         opacity: 1;
     }
-    .lamp-part.-bottom:before{
+    .lamp-part.-bottom:before {
         opacity: 0;
     }
 }
+
